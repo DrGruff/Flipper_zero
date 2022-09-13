@@ -6,7 +6,7 @@ Version: 1
 #
 # Usage:
 # Make sure the blu-ray player is on, with no disc in the tray.
-# Enter each button slow and steady until the light on the player blinks.
+# Press button 1,2,3,4,5 in ascending order. The light on the player should blink.
 # If it won't work on the first try - try again!
 # When the display reads OK, power off using the power button, and then power back on again.
 #
