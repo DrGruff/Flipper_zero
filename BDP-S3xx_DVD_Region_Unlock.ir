@@ -1,0 +1,47 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony BDP-S3xx DVD Region Unlock
+# By DrGruff
+#
+# Usage:
+# Make sure the blu-ray player is on, with no disc in the tray.
+# Enter each button slow and steady until the light on the player blinks.
+# If it won't work on the first try - try again!
+# When the display reads OK, power off using the power button, and then power back on again.
+#
+name: Button_1
+type: raw
+frequency: 40000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 1200 600 1200 600 1200 600 1200 600 1200 600 1200 600 600 600 1200 600 600 600 1200 600 1200 600 1200 600 600 600 600 600 1200 600 600 600 600 600 1200 600 600 600
+#
+name: Button_2
+type: raw
+frequency: 40000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 600 600 1200 600 600 600 600 600 1200 600 1200 600 600 600 1200 600 600 600 1200 600 1200 600 1200 600 600 600 600 600 1200 600 600 600 600 600 1200 600 600 600
+#
+name: Button_3
+type: raw
+frequency: 40000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 1200 600 1200 600 1200 600 600 600 600 600 1200 600 600 600 600 600 1200 600 600 600
+#
+name: Button_4
+type: raw
+frequency: 40000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 1200 600 1200 600 1200 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 1200 600 1200 600 1200 600 600 600 600 600 1200 600 600 600 600 600 1200 600 600 600
+#
+name: Button_5
+type: raw
+frequency: 40000
+duty_cycle: 0.330000
+data: 2400 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 600 600 600 600 1200 600 600 600 1200 600 1200 600 1200 600 600 600 600 600 1200 600 600 600 600 600 1200 600 600 600
+# 
+name: POWER
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 15 00 00 00
