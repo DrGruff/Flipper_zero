@@ -1,2 +1,3 @@
 # Flipper_zero
-Misc Flipper Zero filese
+Misc Flipper Zero files
+
